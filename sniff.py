@@ -7,7 +7,7 @@ import platform
 
 parser=argparse.ArgumentParser()
 parser.add_argument("-i", dest="interface", help="use this interface for capturing")
-parser.add_argument("-w", dest="write", help="write to file")
+parser.add_argument("-w", dest="write", help="write to the output file")
 insert=parser.parse_args()
 i=insert.interface
 file=insert.write
