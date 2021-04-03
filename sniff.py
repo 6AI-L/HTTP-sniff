@@ -4,7 +4,7 @@ import sys
 import os
 import argparse
 import platform
-#os.system("echo 1 > /proc/sys/net/ipv4/ip_forward")
+
 parser=argparse.ArgumentParser()
 parser.add_argument("-i", dest="interface", help="use this interface for capturing")
 parser.add_argument("-w", dest="write", help="write to file")
